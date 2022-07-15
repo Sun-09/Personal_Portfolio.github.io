@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(../Images/Background\ 6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+.navbar h1{
+    color:white;
+    margin: 26px 20px;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar .tag{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 410px;
+}
+
+.navbar .tag a{
+    text-decoration: none;
+    color:white;
+    margin: 26px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
+.navbar .tag .dropdown button{
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    height: 25px;
+    width:120px;
+    margin: 26px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    width:160px
+    
+  }
+.dropdown:hover .dropdown-content {display: block;} 
+.dropdown-content button{
+    padding-right: 10px;
+}
+.dropdown-content_2 a:hover{
+    color:aquamarine;
+    font-style: italic;
+    font-size: 1rem;
+}
+.navbar .tag a:hover{
+   color:darkorange;
+   font-size: 1 rem;
+    
+}
+.dropdown-content button{
+    color:hotpink;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown-content button a{
+    text-decoration: none;
+    color: white
+}
+.dropdown-content_2 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width:200px;
+    height:230px;
+    
+    border-radius: 10px;
+    
+  }
+.drop-btn_2:hover .dropdown-content_2{
+    display: block;
+}
+.dropdown-content_2 a{
+    padding-left: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .info .holder h1{
+    color: white;
+    font-weight: bolder;
+}
+
+.container .info .holder h2{
+    color: rgba(130, 192, 228, 0.45);
+    padding:5px 0px 5px 0px
+    
+}
+
+.container .info .holder button p a{
+    color: aliceblue;
+    font-size: 1.25rem;
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 4px 14px ;
+    text-decoration: none;
+}
+.container .info .holder button{
+    background-color: transparent;
+
+}
+
+.container .info .holder button p a:hover{
+    color:red
+}
+
+
+.container .info img{
+    width:10px
+}
+.container .info .holder{
+    padding-left: 15px;
+}
+.container .info{
+    width: 50vw;
+    height:40vh;
+    
+    
+}
+.container .info .box{
+  display: flex;
+  padding:160px 80px
+}
+
+
+
+.container .profile{
+    width: 50vw;
+    height:40vh;
+    
+    
+}
+.container .profile .container2 h1{
+    color:white;
+    padding-left: 35px
+}
+.container .profile .container2 img{
+    padding-left: 35px;
+}
+.container .profile .container2 h2{
+    color:rgb(255, 255, 255);
+    width:280px;
+    height: 10px;
+    
+    padding-right: 100px;
+    
+} 
+
+
+.container .profile .container2 .num{
+    display: flex;
+    
+    
+}
+.container .profile .container2 .num h1{
+    color: white;
+}
+.container .profile .container2 .num .second{
+    padding-left: 100px;
+}
+.container .profile .container2{
+    padding: 160px 380px;
+    
+}
+
+
+.footer{
+    width:70vw;
+    height:30vh;
+    background-color: rgba(255, 255, 255,0.05);
+    
+    border-radius: 20px;
+    margin: 140px 0px 0px 210px;
+}
+
+.footer .social{
+    
+    width:100%;
+    height: 10vh;
+    
+}
+
+.footer .social .social_media{
+    display: flex;
+    padding: 20px 0px 0px 40px;
+}
+
+.footer .container3{
+    display:flex
+}
+
+.footer .container3 .skill_1{
+    width:48%;
+    height:20vh;
+    
+}
+
+.footer .container3 .skill_2{
+    width:48%;
+    height:20vh;
+    
+}
+.footer .social .social_media h1{
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 250px;
+}
+
+.footer .social .social_media a{
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.555);
+    font-size: 1.4rem;
+    padding: 0px 0px 0px 5px;
+}
+
+.footer .social .social_media img{
+    width: 05px;
+    height: 20px;
+    padding:5px 0px 0px 10px
+}
+
+.footer .social .social_media a:hover{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder
+}
+
+.footer .container3 .skill_1 h3, h2{
+    color:rgb(255, 255, 255, 0.55);
+    padding:30px 10px 0px 40px
+}
+
+.footer .container3 .skill_2 h2{
+    color:rgb(255, 255, 255, 0.55);
+    padding:30px 10px 0px 40px
+}
+
+.footer .container3 .skill_2 h3{
+    color:rgb(255, 255, 255, 0.55);
+    padding:38px 10px 0px 40px 
+}
+
+.footer .container3 .skill_1 h2:hover{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dropdown-content_3 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width:130px;
+    height:30px;
+    margin: 28px 0px 0px 160px
+    
+  }
+
+  .drop-btn_3:hover .dropdown-content_3{
+    display: block;
+  }
+
+  .drop-btn_3{
+    display: flex;
+  }
+
+
