@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Rozha+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 }
 
 body{
+    width:100%;
     background-image: url(../Images/Background\ 6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,7 +58,7 @@ body{
     display: none;
     position: absolute;
     background-color: rgba(0,0,0,0.2);
-    width:160px
+    width:270px
     
   }
 .dropdown:hover .dropdown-content {display: block;} 
@@ -87,7 +89,7 @@ body{
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
-    width:200px;
+    width:270px;
     height:230px;
     
     border-radius: 10px;
@@ -116,7 +118,7 @@ body{
     
 }
 
-.container .info .holder button p a{
+.container .info .holder div p a{
     color: aliceblue;
     font-size: 1.25rem;
     border:1px solid white;
@@ -124,13 +126,16 @@ body{
     padding: 4px 14px ;
     text-decoration: none;
 }
-.container .info .holder button{
+.container .info .holder div{
     background-color: transparent;
+    margin: 16px 0px;
 
 }
 
-.container .info .holder button p a:hover{
-    color:red
+.container .info .holder div p a:hover{
+    color: rgb(19, 11, 74);
+    background-color: whitesmoke;
+    font-weight: bolder;
 }
 
 
@@ -291,4 +296,26 @@ body{
     display: flex;
   }
 
+.l{
+    width: 240px;
+    font-size: 18px;
+    color:white;
+    padding:10px 10px;
+    font-family: 'Rozha One', serif;
+}
+
+.l:hover{
+    color:rgb(242, 255, 0);
+    font-size: 20px
+}
+.k{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 6;
+}
+
+@keyframes example{
+    from {color:white;}
+    to {color:rgb(89, 192, 186);}
+}
 
